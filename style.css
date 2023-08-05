@@ -1,0 +1,380 @@
+.header-menu{
+    background-color: rgb(157, 135, 6);
+    
+}
+.logo{
+    width: 100%;
+    height: 60px;
+    /* background-color: black; */
+}
+.logo img{
+    height: 100%;
+    margin-left: 40px;
+
+}
+.menu{
+    width: 100%;
+    
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    /* justify-content: center; */
+    font-family: 'Angkor', cursive;
+    padding: 18px;
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+.menu ul li a:hover{
+    background-color: rgb(178, 167, 12);
+}
+.right-icon{
+    width: 100%;
+    height: 60px;
+    /* background-color: pink; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.right-icon .fa{
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+.right-icon .fa-bars{
+    display: none;
+}
+/* homepage */
+.homepage{
+    background-color: gray;
+}
+.pic{
+    width: 100%;
+    height: 580px;
+
+}
+.content-homepage{
+    width: 100%;
+    height: 470px;
+    /* background-color: ; */
+}
+.content-homepage h1{
+    font-size: 45px;
+    font-family: 'Hanuman', serif;
+    margin-left: 20px;
+    margin-top: 150px;
+    font-weight: bold;
+    
+}
+.content-homepage h3,h5{
+    font-size: 45px;
+    font-family: 'Hanuman', serif;
+    margin-left: 20px;
+    /* margin-top: 150px; */
+    font-weight: bold;
+    
+}
+.btn{
+    font-family: 'Hanuman', serif;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* .content-homepage .btndiscount{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: green;
+    
+    border-radius: 50px;
+
+} */
+/* Feature product */
+.box-item{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(237, 244, 244, 0.265);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.box-item img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    object-fit: cover;
+    
+}
+.box-item img:hover{
+    transform: scale(90%,90%);
+    
+    transition: 0.8s;
+}
+.item{
+    width: 100%;
+    height: 350px;
+    background-color: gainsboro;
+}
+.picture{
+    width: 100%;
+
+}
+.prd-title{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.prd-title h1{
+    font-size: 35px;
+    font-weight: bold ;
+    color: goldenrod;
+    text-shadow: 2px 2px 4px black ;
+    letter-spacing: 3px;
+}
+.item .picture{
+    width: 100%;
+    height: 70%;
+    background-color: gainsboro;
+
+}
+.item .title{
+    width: 100%;
+    height: 30%;
+    background-color: gainsboro
+}
+.item .picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.title h2{
+    text-align: center;
+    font-size: 25px;
+    color: chocolate;
+}
+.rate{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+
+}
+ .fa{
+    font-size: 15px;
+   color: goldenrod;
+
+}
+.title p{
+    font-size: 20px;
+    float: left;
+}
+.fa-cart-plus{
+    transform: translate(160px);
+    color: black;
+    font-size: 20px;
+}
+ /* about us  */
+.header-form{
+    width: 100%;
+    height: 200px;
+    /* background-color: green; */
+    margin-bottom: 20px;
+    
+}
+.header-form .title{
+    width: 100%;
+    height: 50%;
+    
+    /* border-bottom: 2px solid gray; */
+    /* background-color: blue; */
+
+}
+.header-form .description{
+    width: 100%;
+    height: 50%;
+    font-family: 'Hanuman', serif;
+    margin-top: 10px;
+   
+    /* border-bottom: 2px solid gray; */
+    
+    /* background-color: purple; */
+}
+.header-form .title h2{
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: left;
+    transform: translateY(20px);
+    font-weight: bold ;
+}
+.header-form .description h1{
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(202, 152, 26);
+    
+}
+/* contact us  */
+
+   
+.form1, .form2{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px; 
+
+}
+.box1{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+}
+
+/* footer  */
+.box1 p{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+    color: antiquewhite;
+    font-size: 13px;
+}
+.box1 .fa{
+    font-size: 25
+    px;
+}
+.box1 a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: bold;
+}
+.box2 p{
+    line-height: 40px;
+    color:darkgray ;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.box2 h4{
+    color: burlywood;
+    font-size: 25px;
+}
+.box2 .fa{
+    font-size: 25px;
+    letter-spacing: 20px;
+    color: darkgray;
+}
+.box2 a{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+    line-height: 30px;
+}
+.box3 a{
+    text-decoration: none;
+    color: darkgray;
+    font-weight: bold;
+    line-height: 30px;
+}
+.box3 h4{
+    color: burlywood;
+    font-size: 25px;
+}
+.footer{
+   margin-left: 80px; 
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+   padding: 20px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center;
+    */
+}
+ /* collection  */
+.content-homepage1 h1{
+    width: 100%;
+    height: 300px;
+    font-size: 45px;
+    font-family: 'Hanuman', serif;
+    margin-left: 20px;
+    /* margin-top: 10px; */
+    font-weight: bold;
+    color: rgb(64, 200, 33)
+}
+.pic1 img{
+    width: 280px;
+    height: 100%;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+@media (max-width: 575.98px){
+    .footer{
+        font-size: 13px;
+        padding: 20px;
+    }
+    .header-form .title h2{
+        margin-top: 1px;
+        font-size: 20px;
+    }
+    .header-form .description h1{
+        font-size: 20px;
+    }
+    .right-icon .fa-bars{
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .right-icon .fa{
+        font-size: 15px;
+    }
+
+    /* .menu{
+        display: none;
+    } */
+    .menu{
+        width: 570px;
+        /* position: absolute; */
+        
+        /* left: 0; */
+        background-color: darkkhaki;
+       transform: translate(-157px,60px);
+       margin-left: 10px;
+    }
+    .header-menu{
+        position: relative;
+    }
+    .menu ul li{
+        float: none;
+        
+    }
+    .content-homepage{ 
+        height: 200px;
+    
+    }
+    .pic{
+        height: 370px;
+    
+    }
+    .box-item{
+        height: 250px;
+    }
+  
+    
+}
+
+
+
+

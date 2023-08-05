@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    .container{
+        width: 500px;
+        height: 600px;
+        /* background-color: antiquewhite; */
+        margin: auto;
+    }
+    .box1{
+        width: 100%;
+        height: 69%;
+        background-color:antiquewhite;
+        margin-bottom: 1%;
+
+    }
+    .box2{
+        width: 100%;
+        height: 30%;
+        /* background-color: brown; */
+    }
+    .box2-1{
+        width: 24%;
+        height: 100%;
+        background-color:antiquewhite;
+        margin-right: 1%;
+        float: left;
+    }
+    .box2-2{
+        width: 24%;
+        height: 100%;
+        background-color: antiquewhite;
+        margin-right: 1%;
+        float: left;
+    }
+    .box2-3{
+        width: 24%;
+        height: 100%;
+        background-color:antiquewhite;
+        margin-right: 1%;
+        float: left;
+    }
+    .box2-4{
+        width: 25%;
+        height: 100%;
+        background-color: antiquewhite;
+        /* margin-right: 1%; */
+        float: left;
+    }
+    .box1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .box2-1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .box2-2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .box2-3 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .box2-4 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="box1">
+            <img  id="IMG" src="https://phorn-khouch.netlify.app/image/pant2.png" alt="" onclick="defaulIMG()" >
+        </div>
+        <div class="box2">
+            <div class="box2-1">
+                <img  src="https://phorn-khouch.netlify.app/image/h1.png" alt="" onclick="test1()">
+            </div>
+            <div class="box2-2">
+                <img src="https://phorn-khouch.netlify.app/image/shirt4.png" alt="" onclick="test2()">
+            </div>
+            <div class="box2-3">
+                <img src="https://phorn-khouch.netlify.app/image/banner-img.png" alt="" onclick="test3()">
+            </div>
+            <div class="box2-4">
+                <img src="https://phorn-khouch.netlify.app/image/w1.png" alt="" onclick="test4()">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function test1(){
+        document.getElementById('IMG').setAttribute('src','https://phorn-khouch.netlify.app/image/h1.png')
+    }
+    function test2(){
+        document.getElementById('IMG').setAttribute('src','https://phorn-khouch.netlify.app/image/shirt4.png')
+    }
+    function test3(){
+        document.getElementById('IMG').setAttribute('src','https://phorn-khouch.netlify.app/image/shirt2.png')
+    }
+    function test4(){
+        document.getElementById('IMG').setAttribute('src','https://phorn-khouch.netlify.app/image/w1.png')
+    }
+    function defaulIMG(){
+        document.getElementById('IMG').setAttribute('src','https://phorn-khouch.netlify.app/image/w3.png')
+    }
+</script>
+</html>
